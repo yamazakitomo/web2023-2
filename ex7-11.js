@@ -1,1 +1,1 @@
-<input type="text" id="seireki"><input type="button" value="解答" onclick="uru();"></p>
+function uru(){ var X =Number(document.getElementById('seireki').value);if(X % 400==0 && X % 100!=0 && X % 4==0){alert('西暦'+uru+'年は閏年');}else{alert('西暦'+uru+'年は平年');}}
