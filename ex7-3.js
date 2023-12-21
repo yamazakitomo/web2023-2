@@ -1,1 +1,1 @@
-function bmi(){ var x =Number(document.getElementById('input3').value);var y =Number(document.getElementById('input4').value);var z =Number(x/(y*y));if(z<=18.5){alert(z+'は低体重');}else if(z<25){alert(z+'は普通');}else{alert(z+'は肥満');}}
+function bmi(){ var x =Number(document.getElementById('input3').value);var y =Number(document.getElementById('input4').value);{alert(x/(y*y));};
